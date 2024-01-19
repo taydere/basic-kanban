@@ -11,11 +11,13 @@ export default function Home() {
     ' Math: Problems',
     ' Math: Notes',
     ' Computer Science Memory Palace: Networking',
+    ' Computer Science Memory Palace: Languages',
     ' Computer Science Memory Palace: Tools',
     ' Computer Science Memory Palace: Fundamentals',
     ' Computer Science: Notes Application Spread to tools/fundamentals/language',
     ' Computer Science: Project',
-    ' Business',
+    ' Business Process: Notes',
+    ' Business Process: Memory Palace',
     
     ]
 
@@ -23,12 +25,14 @@ export default function Home() {
     ' Math Memory Palace: Arithmetic 2',
     ' Math: Problems',
     ' Math: Notes',
+    ' Computer Science Memory Palace: Networking',
     ' Computer Science Memory Palace: Languages',
     ' Computer Science Memory Palace: Tools',
     ' Computer Science Memory Palace: Fundamentals',
-    ' Computer Science: Notes Application tools/fundamentals/language',
+    ' Computer Science: Notes Application Spread to tools/fundamentals/language',
     ' Computer Science: Project',
-    ' Business',
+    ' Business Process: Notes',
+    ' Business Process: Memory Palace',
       
     ]
    
@@ -36,12 +40,14 @@ export default function Home() {
     ' Math Memory Palace: Algebra 1',
     ' Math: Problems',
     ' Math: Notes',
+    ' Computer Science Memory Palace: OS',
     ' Computer Science Memory Palace: Languages',
     ' Computer Science Memory Palace: Tools',
     ' Computer Science Memory Palace: Fundamentals',
-    ' Computer Science: Notes Application tools/fundamentals/language',
+    ' Computer Science: Notes Application Spread to tools/fundamentals/language',
     ' Computer Science: Project',
-    ' Business',
+    ' Business Process: Notes',
+    ' Business Process: Memory Palace',
       
     ]
   
@@ -49,12 +55,14 @@ export default function Home() {
     ' Math Memory Palace: Algebra 2',
     ' Math: Problems',
     ' Math: Notes',
+    ' Computer Science Memory Palace: OS',
     ' Computer Science Memory Palace: Languages',
     ' Computer Science Memory Palace: Tools',
     ' Computer Science Memory Palace: Fundamentals',
-    ' Computer Science: Notes Application tools/fundamentals/language',
+    ' Computer Science: Notes Application Spread to tools/fundamentals/language',
     ' Computer Science: Project',
-    ' Business',
+    ' Business Process: Notes',
+    ' Business Process: Memory Palace',
         
     ]
 
@@ -65,9 +73,10 @@ export default function Home() {
     ' Computer Science Memory Palace: Languages',
     ' Computer Science Memory Palace: Tools',
     ' Computer Science Memory Palace: Fundamentals',
-    ' Computer Science: Notes Application tools/fundamentals/language',
+    ' Computer Science: Notes Application Spread to tools/fundamentals/language',
     ' Computer Science: Project',
-    ' Business',
+    ' Business Process: Notes',
+    ' Business Process: Memory Palace',
       
     ]
         
@@ -78,9 +87,10 @@ export default function Home() {
     ' Computer Science Memory Palace: Languages',
     ' Computer Science Memory Palace: Tools',
     ' Computer Science Memory Palace: Fundamentals',
-    ' Computer Science: Notes Application tools/fundamentals/language',
+    ' Computer Science: Notes Fundamentals, Networking, OS from book',
     ' Computer Science: Project',
-    ' Business',
+    ' Business Process: Notes',
+    ' Business Process: Memory Palace',
       
     ]
 
@@ -93,8 +103,8 @@ export default function Home() {
     ' Computer Science Memory Palace: Fundamentals',
     ' Computer Science: Notes Application tools/fundamentals/language',
     ' Computer Science: Project',
-    ' Business',
-      
+    ' Business Process: Notes',
+    ' Business Process: Memory Palace',
     ]
   
   const lin = "https://docs.google.com/document/d/1Eo8WiDlX3LlcOegjMm4yaaPWApnuHowwUUt-ZUmVyh4/edit"
