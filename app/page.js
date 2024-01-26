@@ -4,21 +4,18 @@ import Image from 'next/image'
 
 export default function Home() {
 
-  const isTrue = "false";
-
   const mondayTasks = [
-    ' Math Memory Palace: Arithmetic 1',
-    ' Math: Problems',
-    ' Math: Notes',
-    ' Computer Science Memory Palace: Networking',
-    ' Computer Science Memory Palace: Languages',
-    ' Computer Science Memory Palace: Tools',
-    ' Computer Science Memory Palace: Fundamentals',
-    ' Computer Science: Notes Application Spread to tools/fundamentals/language',
-    ' Computer Science: Project',
-    ' Business Process: Notes',
-    ' Business Process: Memory Palace',
-    
+    {"name" : " Math Memory Palace: Arithmetic 1", "uri" : "https://docs.google.com/document/d/1eXKq5dl_kuTmmzN8T99zE2Zf1rAuzceC/edit" },
+    {"name" : " Math: Problems", "uri" : "https://docs.google.com/document/d/1byLA7D8jpQAtnOu8pB9ljoimzwLcycWKtrMQn2oc-IU/edit"},
+    {"name" : " Math: Notes", "uri" : "https://docs.google.com/document/d/1eXKq5dl_kuTmmzN8T99zE2Zf1rAuzceC/edit"},
+    {"name" : " Computer Science Memory Palace: Networking", "uri" : "https://docs.google.com/document/d/19PiWk4DMLC_bZxX0HgQEujtyTAm-dKkCnONp8gDH2JM/edit"},
+    {"name" : " Science Memory Palace: Languages", "uri" : "https://docs.google.com/document/d/19PiWk4DMLC_bZxX0HgQEujtyTAm-dKkCnONp8gDH2JM/edit"},
+    {"name" : " Science Memory Palace: Tools", "uri" : "https://docs.google.com/document/d/19PiWk4DMLC_bZxX0HgQEujtyTAm-dKkCnONp8gDH2JM/edit"},
+    {"name" : " Science Memory Palace: Fundamentals", "uri" : "https://docs.google.com/document/d/19PiWk4DMLC_bZxX0HgQEujtyTAm-dKkCnONp8gDH2JM/edit"},
+    {"name" : " Science Memory Palace: Notes Application Spread to tools/fundamentals/language", "uri" : "https://docs.google.com/document/d/19PiWk4DMLC_bZxX0HgQEujtyTAm-dKkCnONp8gDH2JM/edit"},   
+    {"name" : " Computer Science: Project", "uri" : "https://docs.google.com/document/d/1Eo8WiDlX3LlcOegjMm4yaaPWApnuHowwUUt-ZUmVyh4/edit"},   
+    {"name" : " Business Process: Notes", "uri" : "https://docs.google.com/document/d/1OsyvxBWnirho7LQRtVxh8Z15z4G4TWZVPqy9kpcWy4o/edit"},   
+    {"name" : " Business Memory Palace", "uri" : "https://docs.google.com/document/d/1OsyvxBWnirho7LQRtVxh8Z15z4G4TWZVPqy9kpcWy4o/edit"},       
     ]
 
   const tuesdayTasks = [
@@ -95,38 +92,36 @@ export default function Home() {
     ]
 
   const sundayTasks = [
-    ' Math Memory Palace: Calculus',
-    ' Math: Problems',
-    ' Math: Notes',
-    ' Computer Science Memory Palace: Languages',
-    ' Computer Science Memory Palace: Tools',
-    ' Computer Science Memory Palace: Fundamentals',
-    ' Computer Science: Notes Application tools/fundamentals/language',
-    ' Computer Science: Project',
-    ' Business Process: Notes',
-    ' Business Process: Memory Palace',
+    {"name" : "Math Memory Palace: Calculus", "uri" : "https://docs.google.com/document/d/1eXKq5dl_kuTmmzN8T99zE2Zf1rAuzceC/edit"},
+    {"name" : "Math: Problems", "uri" : "https://docs.google.com/document/d/1Eo8WiDlX3LlcOegjMm4yaaPWApnuHowwUUt-ZUmVyh4/edit"},
+    {"name" : "Math: Notes", "uri" : "https://docs.google.com/document/d/1Eo8WiDlX3LlcOegjMm4yaaPWApnuHowwUUt-ZUmVyh4/edit"},
+    //' Computer Science Memory Palace: Languages',
+    //' Computer Science Memory Palace: Tools',
+    //' Computer Science Memory Palace: Fundamentals',
+    //' Computer Science: Notes Application tools/fundamentals/language',
+    //' Computer Science: Project',
+    //' Business Process: Notes',
+    //' Business Process: Memory Palace',
     ]
-  
-  const lin = "https://docs.google.com/document/d/1Eo8WiDlX3LlcOegjMm4yaaPWApnuHowwUUt-ZUmVyh4/edit"
-
-  if(isTrue == "true"){
-    const listitems = mondayTasks.map(person =>
       
-      <li><a href={lin}><input type = "checkbox" />{person}</a></li>
+      return (
 
-      );
-  }
-  const listitems = tuesdayTasks.map(person =>
-      
-    <li><a href={lin}><input type = "checkbox" />{person}</a></li>
+        <div>
+          <a href="http://localhost:3000/monday">Monday</a>
+          <a href="http://localhost:3000/monday"> Tuesday</a>
+          <a href="http://localhost:3000/monday"> Wednesday</a>
+          <a href="http://localhost:3000/monday"> Thursday</a>
+          <a href="http://localhost:3000/monday"> Friday</a>
+          <a href="http://localhost:3000/monday"> Saturday</a>
+          <a href="http://localhost:3000/monday"> Sunday</a>
 
-    );
-  
-  return (
 
-    <ul>{listitems}</ul>
-   
-  )
 
- 
+
+
+
+        </div>
+       
+      )
+
 }
