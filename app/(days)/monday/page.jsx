@@ -21,7 +21,7 @@ export default function monday() {
     
     const listitems = mondayTasks.map(person =>
       
-      <li><a href={person.uri}><input type = "checkbox" />{person.name}</a></li>
+      <li><a href={person.uri} target = "_blank"><input type = "checkbox" />{person.name}</a></li>
 
       );
 

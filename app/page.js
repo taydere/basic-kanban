@@ -108,18 +108,12 @@ export default function Home() {
 
         <div>
           <a href="http://localhost:3000/monday">Monday</a>
-          <a href="http://localhost:3000/monday"> Tuesday</a>
-          <a href="http://localhost:3000/monday"> Wednesday</a>
-          <a href="http://localhost:3000/monday"> Thursday</a>
-          <a href="http://localhost:3000/monday"> Friday</a>
-          <a href="http://localhost:3000/monday"> Saturday</a>
-          <a href="http://localhost:3000/monday"> Sunday</a>
-
-
-
-
-
-
+          <div><a href="http://localhost:3000/tuesday"> Tuesday</a></div>
+          <div><a href="http://localhost:3000/wednesday"> Wednesday</a></div>
+          <div><a href="http://localhost:3000/thursday"> Thursday</a></div>
+          <div><a href="http://localhost:3000/friday"> Friday</a></div>
+          <div><a href="http://localhost:3000/saturday"> Saturday</a></div>
+          <div><a href="http://localhost:3000/sunday"> Sunday</a></div>
         </div>
        
       )
