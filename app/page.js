@@ -109,11 +109,11 @@ export default function Home() {
         <div>
           <a href="https://basic-kanban-fawn.vercel.app/monday">Monday</a>
           <div><a href="https://basic-kanban-fawn.vercel.app/tuesday"> Tuesday</a></div>
-          <div><a href="http://localhost:3000/wednesday"> Wednesday</a></div>
-          <div><a href="http://localhost:3000/thursday"> Thursday</a></div>
-          <div><a href="http://localhost:3000/friday"> Friday</a></div>
-          <div><a href="http://localhost:3000/saturday"> Saturday</a></div>
-          <div><a href="http://localhost:3000/sunday"> Sunday</a></div>
+          <div><a href="https://basic-kanban-fawn.vercel.app/wednesday"> Wednesday</a></div>
+          <div><a href="https://basic-kanban-fawn.vercel.app/thursday"> Thursday</a></div>
+          <div><a href="https://basic-kanban-fawn.vercel.app/friday"> Friday</a></div>
+          <div><a href="https://basic-kanban-fawn.vercel.app/saturday"> Saturday</a></div>
+          <div><a href="https://basic-kanban-fawn.vercel.app/sunday"> Sunday</a></div>
         </div>
        
       )
